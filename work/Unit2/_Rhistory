@@ -1,0 +1,512 @@
+{
+x = "1" z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL) },
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+ifelse(exists("z"),z,"zdoes not exist!")
+a= x
+tryCatch(
+{
+x = "1"
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL) },
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+tryCatch(
+{
+x = "1"
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+{
+x = "1"
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+tryCatch(
+{
+x = "1"
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+{
+x =-1
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+tryCatch(
+{
+x =-1
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+x =2 #x="1"字串輸出error錯誤，x=-1輸出warning錯誤
+tryCatch(
+{
+x =2 #x="1"字串輸出error錯誤，x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+ifelse(exists("z"),z,"zdoes not exist!")
+a= x
+a
+source("trycatch2.r",echo=TRUE)
+setwd("E:/DM/work") #設定工作目錄
+getwd()
+source("trycatch2.r",echo=TRUE)
+"
+setwd("E:/DM/work") #設定工作目錄
+getwd()
+source("trycatch2.r",echo=TRUE)
+source("trycatch1.r",echo=TRUE)
+tryCatch(
+{
+x =2 #x="1"字串輸出error錯誤；x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+ifelse(exists("z"),z,"z does not exist!")
+a= x
+a
+source("trycatch1.r",echo=TRUE)
+source("trycatch2.r",echo=TRUE)
+getwd()
+tryCatch(
+{
+x =2 #x="1"字串輸出error錯誤；x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+ifelse(exists("z"),z,"z does not exist!")
+a= x
+a
+{
+x =2 #x="1"字串輸出error錯誤；x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+tryCatch(
+{
+x =2 #x="1"字串輸出error錯誤；x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+ifelse(exists("z"),z,"z does not exist!") #ifelse(條件,TRUE,FLASE)
+a= x
+rm(list=ls()) #清除記憶體
+{
+x =2 #x="1"字串輸出error錯誤；x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+tryCatch(
+{
+x =2 #x="1"字串輸出error錯誤；x=-1輸出warning錯誤
+z = sqrt(x)
+},
+# 遇到 warning 時的自訂處理函數
+warning = function(msg) {
+message(paste("[Warning]",msg,"\n"))
+return(NULL)
+},
+# 遇到 error 時的自訂處理函數
+error = function(msg) {
+message(paste("[Error]",msg,"\n"))
+return(NA)
+}
+)
+ifelse(exists("z"),z,"z does not exist!") #ifelse(條件,TRUE,FLASE)
+a= x
+a
+data<-c(1,2,3,6,3)
+scale(date,center=T,scale = F)
+attr(,"scaled:center")
+scale(data,center=T,scale = F)
+attr(,"scaled:center")
+data<-c(1,2,3,6,3)
+scale(data,center=T,scale = F)
+attr(,"scaled:center")
+data<-c(1,2,3,6,3)
+scale(data,center=T,scale = F)
+#NA為R的遺漏值
+a<-c(2,3,8,NA,4,NA,9,12,NA)
+is.na(a) #針對是否有NA顯示T或F
+any(is.na(a)) #判斷是否有NA值
+sum(is.na(a)) #計算NA值數量
+is.nan(0/0) #識別不可能得值
+is.infinite(1/0) #識別無窮值
+summary(a)
+install.packages("mice")
+library(mice)
+install.packages("mice")
+install.packages("mice")
+install.packages("missForest")
+library(missForest)
+data <- prodNA(iris, noNA = 0.05)
+complete.cases(data)
+install.packages("mice")
+library(mice)
+install.packages("missForest")
+install.packages("missForest")
+library(missForest)
+data <- prodNA(iris, noNA = 0.05) #產生5%遺漏值
+complete.cases(data)
+complete.cases(data)
+return(NULL)data
+data
+data
+summary(data)
+md.pattern(data)
+summary(data)
+md.pattern(data)
+data <- prodNA(iris, noNA = 0.05) #產生5%遺漏值
+complete.cases(data)
+summary(data)
+md.pattern(data)
+md.pattern(data)
+source('~/.active-rstudio-document', encoding = 'UTF-8', echo=TRUE)
+install.packages("mice")
+install.packages("missForest")
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE, labels=names(data), cex.axis=.7, gap=3, ylab=c("Histogram of missing data", "Pattern"))
+installed.packages(("VIM"))
+library(VIM)
+installed.packages("VIM")
+installed.packages("VIM")
+library(VIM)
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+install.packages("VIM")
+library(VIM)
+library(VIM)
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+install.packages("VIM")
+install.packages("VIM")
+library(VIM)
+library(VIM)
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+new_data<-data[complete.cases(data),]
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+new_data<-data[complete.cases(data),]
+data
+new_data
+str(data)
+str(data)
+new_data<-data
+new_data1<-data
+library(VIM)
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+#NA為R的遺漏值
+a<-c(2,3,8,NA,4,NA,9,12,NA)
+is.na(a) #針對是否有NA顯示T或F
+any(is.na(a)) #判斷是否有NA值
+sum(is.na(a)) #計算NA值數量
+is.nan(0/0) #識別不可能得值
+is.infinite(1/0) #識別無窮值
+summary(a)
+install.packages("mice")
+library(mice)
+install.packages("missForest")
+library(missForest)
+data <- prodNA(iris, noNA = 0.05) #產生5%遺漏值
+complete.cases(data) #資料完成回傳T；資料遺漏回傳F
+summary(data) #檢視data
+md.pattern(data)
+str(data)
+install.packages("VIM")
+library(VIM)
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+new_data<-data[complete.cases(data),] #根據資料遺漏值回傳F刪除遺漏值
+new_data1<-data
+install.packages("VIM")
+new_data1<-data
+new_data1 <- data
+new_data<-data[complete.cases(data),] #根據資料遺漏值回傳F刪除遺漏值
+new_data1 <- data
+# 算出各欄的平均數
+new_data1.mean_col_1 <- mean(new_data1[, 1], na.rm = T)
+new_data1.mean_col_2 <- mean(new_data1[, 2], na.rm = T)
+new_data1.mean_col_3 <- mean(new_data1[, 3], na.rm = T)
+new_data1.mean_col_4 <- mean(new_data1[, 4], na.rm = T)
+# 取出各欄位中有遺漏值的“列位置”
+na.rows1 <- is.na(new_data1[, 1])
+na.rows2 <- is.na(new_data1[, 2])
+na.rows3 <- is.na(new_data1[, 3])
+na.rows4 <- is.na(new_data1[, 4])
+#用平均數取代遺漏值
+new_data1[na.rows1,1] <- new_data1.mean_col_1
+new_data1[na.rows2,2] <- new_data1.mean_col_2
+new_data1[na.rows3,3] <- new_data1.mean_col_3
+new_data1[na.rows4,4] <- new_data1.mean_col_4
+new_data1[na.rows1,1]
+new_data1[na.rows4,4]
+new_data1.mean_col_1
+new_data1
+new_data1
+data
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+install.packages("VIM")
+install.packages("VIM")
+library(VIM)
+aggr_plot <- aggr(data, col = c('navyblue', 'red'), numbers=TRUE, sortVars=TRUE,
+labels=names(data), cex.axis=.7, gap=3,
+ylab=c("Histogram of missing data", "Pattern"))
+new_data<-data[complete.cases(data),] #根據資料遺漏值回傳F刪除遺漏值
+new_data1 <- data
+#用平均數取代遺漏值
+#算出各欄的平均數
+new_data1.mean_col_1 <- mean(new_data1[, 1], na.rm = T) #na.rm=T不計算NA
+new_data1.mean_col_2 <- mean(new_data1[, 2], na.rm = T)
+new_data1.mean_col_3 <- mean(new_data1[, 3], na.rm = T)
+new_data1.mean_col_4 <- mean(new_data1[, 4], na.rm = T)
+#取出各欄位中有遺漏值的“列位置”
+na.rows1 <- is.na(new_data1[, 1])
+na.rows2 <- is.na(new_data1[, 2])
+na.rows3 <- is.na(new_data1[, 3])
+na.rows4 <- is.na(new_data1[, 4])
+#用平均數取代遺漏值
+new_data1[na.rows1,1] <- new_data1.mean_col_1
+new_data1[na.rows2,2] <- new_data1.mean_col_2
+new_data1[na.rows3,3] <- new_data1.mean_col_3
+new_data1[na.rows4,4] <- new_data1.mean_col_4
+new_data1
+data
+summary(new_data1)
+#利用演算法y=a+b1x1+b2x2+b3x3+......
+mice.data <- mice(data, m = 3, # 產生三個遺漏值被填補好的資料表
+maxit = 30,              # 最大疊代數max iteration
+method = "cart",         # 使用CART決策樹，進行遺漏值預測
+seed = 188)              # 令抽樣每次都一樣
+new_data1 <- complete(mice.data, 1) #第一個結果
+new_data2 <- complete(mice.data, 2) #第二個結果
+new_data3 <- complete(mice.data, 3) #第三個結果
+Training_data_set <- new_data2 #選用第二個結果來當成模型訓練資料集
+kmeans(Training_data_set[-5] , nstart=20, centers=5) #跑分群演算法
+mice.data <- mice(data,
+m = 3,        #產生三個遺漏值被填補好的資料表
+maxit = 30,   # 最大疊代數max iteration
+method = "rf",# 使用隨機森林，進行遺漏值預測
+seed = 188)   # 令抽樣每次都一樣
+summary(mice.data)
+summary(mice.data)
+#利用演算法y=a+b1x1+b2x2+b3x3+......
+mice.data <- mice(data, m = 3, # 產生三個遺漏值被填補好的資料表
+maxit = 30,              # 最大疊代數max iteration
+method = "cart",         # 使用CART決策樹，進行遺漏值預測
+seed = 188)              # 令抽樣每次都一樣
+new_data1 <- complete(mice.data, 1) #第一個結果
+new_data2 <- complete(mice.data, 2) #第二個結果
+new_data3 <- complete(mice.data, 3) #第三個結果
+Training_data_set <- new_data2 #選用第二個結果來當成模型訓練資料集
+kmeans(Training_data_set[-5] , nstart=20, centers=5) #跑分群演算法
+mice.data <- mice(data,
+m = 3,        #產生三個遺漏值被填補好的資料表
+maxit = 30,   # 最大疊代數max iteration
+method = "rf",# 使用隨機森林，進行遺漏值預測
+seed = 188)   # 令抽樣每次都一樣
+summary(mice.data)
+#使用隨機森林
+mice.data <- mice(data, m = 3, # 產生三個遺漏值被填補好的資料表
+maxit = 30,              # 最大疊代數max iteration
+method = "cart",         # 使用CART決策樹，進行遺漏值預測
+seed = 188)              # 令抽樣每次都一樣
+new_data1<-complete(mice.data,1)
+summary(data)
+summary(new_data1)
+kmeans(new_data1[-5],nstart = 20,centers = 5)
+data(cars)
+data(cars)
+str(cars)
+# 將速度分成3類, #   第一類 speed<12 ; 第二類 speed <15 ; 第三類 speed >= 15
+cars$speed
+x1 = cars$speed
+new_cars_band = 1*(x1<12) + 2*(x1>=12 & x1<15) + 3*(x1>=15)
+new_cars_band
+label=c('慢','中','快')
+new_cars_band=labe[new_cars_band]
+new_cars_band=label[new_cars_band]
+new_cars_band
+#速度轉車種%in%
+#慢、中轉一般轎車；快轉跑車
+car_categ=c('一般轎車','跑車')
+new_cars_band_1=1*(new_cars_band%in%c('慢','中'))+2*(new_cars_band%in%c('快'))
+new_cars_band_1=car_categ[new_cars_band_1]
+new_cars_band_1
+#within(case...when...)
+new_cars<-cars
+new_cars<-within(new_cars,
+{
+speed_level <- NA  #一定要指定一個值
+speed_level[cars$speed<12] <- "慢"
+speed_level[cars$speed>=12 & cars$speed<15] <- "中"
+speed_level[cars$speed>=15] <- "快"
+}
+)
+head(new_cars,5)
+#transfrom
+new_cars<-cars
+new_cars<-transform(new_cars,
+new_var1=new_cars$speed*new_cars$dist,
+new_var1=new_cars$dist
+)
+head(new_cars,10)
+x1 = c(1,2,3)
+x2 = c(4,5,6)
+x3 = c(7,8,9)
+TTL = c(x1,x2,x3)
+TTL
+union(x1,x2) #一次僅能兩個變數
+union(union(x1,x2),x3)
+rbind(x1,x3,x3) #row合併
+cbind(x1,x3,x3) #column合併
+# merge()，如同SQL語法中的 join
+# 先建立資料
+a <- data.frame(T_name=c('Tony','Orozco','Justin'), Age=c(25,24,26))
+a
+b <- data.frame(T_name=c('Tony','Orozco','Justin','Carol'), Salary=c(20000,25000,30000,18000))
+b
+# merge()，如同SQL語法中的join
+#預設是 inner join
+merge(a , b, by.x="T_name", by.y="T_name")
+# all.x=TRUE就是left join
+merge(b, a, by.x="T_name", by.y="T_name", all.x=TRUE)
+install.packages("sqldf")
+library(sqldf)
+sqldf("SELECT * FROM iris")
